@@ -1,14 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Resume</title>
+    <style>
+        body {
+            text-align: center;
+        }
+
+        table {
+            border-collapse: collapse;
+            margin: 0 auto; /* Center the table */
+            width: 80%;
+        }
+
+        table, th, td {
+            border: 1px solid black; /* Thinner border */
+        }
+
+        td {
+            padding: 10px;
+        }
+
+        hr {
+            border: 1px solid black;
+        }
+
+        .skills-section {
+            display: inline-block;
+            text-align: left;
+        }
+
+        footer {
+            background-color: blue;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+    </style>
 </head>
 <body>
     <br>
-    <!-- header -->
      <header>
         <table>
             <tr>
@@ -22,12 +54,11 @@
         </table>
      </header>
      <br>
-     <!-- personal details -->
       <section>
         <br>
         <h2>Personal Details</h2>
         <hr>
-        <table border="1px">
+        <table>
             <tr>
                 <td><strong>Name</strong></td>
                 <td>
@@ -55,18 +86,18 @@
         </table>
       </section>
       <br>
-      <!-- summary -->
+
        <section>
-        <h2>Summary</h2>
+        <h2>About me</h2>
         <hr>
         <p>I am a Grade 11 Student from Unida Christian College (UCC) studying in the SHS strand TVL-ICT-Programming, I have no experience in programming but this kind of education is one I am passionate about.</p>
        </section>
        <br>
-       <!-- work experience -->
         <section>
-            <h2>Work Experience</h2>
             <hr>
-            <table border="1px">
+            <h2>Summary</h2>
+            <br>
+            <table>
                 <tr>
                     <td>
                         <strong>Jan 2018-2022</strong>
@@ -76,11 +107,11 @@
             </table>
         </section>
         <br>
-        <!-- education -->
+
          <section>
             <h2>Education</h2>
             <hr>
-            <table border="3px">
+            <table>
                 <tr>
                     <td>
                         <strong>2013-2014</strong>
@@ -107,29 +138,26 @@
             </table>
          </section>
          <br>
-         <!-- skills -->
           <section>
             <h2>Skills</h2>
             <hr>
-            <table cellspacing="20px">
-                <tr>
-                    <td>
-                        <h3>Hard Skill</h3>
-                        <ul>
-                            <li>Learning Programming, Reading Comprehension</li>
-                        </ul>
-                    </td>
-                    <td>
-                        <h3>Soft Skill</h3>
-                        <ul>
-                            <li>Housekeeping, pet care, avid listener</li>
-                        </ul>
-                    </td>
-                </tr>
-            </table>
+            <div class="skills-section">
+                <div>
+                    <h3>Hard Skill</h3>
+                    <ul>
+                        <li>Learning Programming, Reading Comprehension</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>Soft Skill</h3>
+                    <ul>
+                        <li>Housekeeping, pet care, avid listener</li>
+                    </ul>
+                </div>
+            </div>
           </section>
           
-          <!-- contact -->
+
           <section>
             <h2>Contact</h2>
             <hr>
@@ -137,11 +165,9 @@
             <p>Phone: +639671543861</p>
           </section>
           
-          <!-- footer -->
-          <footer style="background-color: blue; color: white; text-align: center; padding: 10px; margin-top: 20px;">
+          <footer>
             <p>CASAS SEAN CARLO - 2024</p>
             <p>Thank you for reviewing my resume!</p>
           </footer>
-<!---Nalimutan ko kung paano i-seperate yung CSS sir-->
 </body>
 </html>
