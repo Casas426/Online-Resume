@@ -1,162 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Resume</title>
-    <style>
-        body {
-            text-align: center;
-        }
-
-        table {
-            border-collapse: collapse;
-            margin: 0 auto;
-            width: 80%;
-        }
-
-        table, th, td {
-            border: 1px solid black;
-        }
-
-        td {
-            padding: 10px;
-        }
-
-        hr {
-            border: 1px solid black;
-        }
-
-        .skills-section {
-            display: inline-block;
-            text-align: left;
-        }
-
-        footer {
-            background-color: blue;
-            color: white;
-            text-align: center;
-            padding: 10px;
-            margin-top: 20px;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <br>
-     <header>
-        <table>
-            <tr>
-                <td>
-                    <img src="https://ibb.co/1GK3Nc4f" height="250" width="250">
-                </td>
-                <td>
-                    <h1>CASAS SEAN CARLO</h1>
-                </td>
-            </tr>
-        </table>
-     </header>
-     <br>
-      <section>
-        <br>
+
+    <header>
+        <h1>CASAS SEAN CARLO</h1>
+        <nav>
+            <a href="about.html">About Me</a>
+            <a href="https://www.facebook.com/yourprofile" target="_blank">Facebook</a>
+        </nav>
+    </header>
+
+    <section class="profile">
+        <img src="https://ibb.co/1GK3Nc4f" height="200" width="200" alt="Profile Picture">
         <h2>Personal Details</h2>
-        <hr>
         <table>
-            <tr>
-                <td><strong>Name</strong></td>
-                <td>
-                    <p>CASAS SEAN CARLO M.</p>
-                </td>
-            </tr>
-            <tr>
-                <td><strong>Email Address</strong></td>
-                <td>
-                    <p>seancasas9@gmail.com</p>
-                </td>
-            </tr>
-            <tr>
-                <td><strong>Phone Number</strong></td>
-                <td>
-                    <p>+639671543861</p>
-                </td>
-            </tr>
-            <tr>
-                <td><strong>Sex</strong></td>
-                <td>
-                    <p>Male</p>
-                </td>
-            </tr>
+            <tr><td><strong>Name</strong></td><td>CASAS SEAN CARLO M.</td></tr>
+            <tr><td><strong>Email</strong></td><td>seancasas9@gmail.com</td></tr>
+            <tr><td><strong>Phone</strong></td><td>+639671543861</td></tr>
+            <tr><td><strong>Sex</strong></td><td>Male</td></tr>
         </table>
-      </section>
-      <br>
+    </section>
 
-       <section>
-        <h2>About me</h2>
-        <hr>
-        <p>I am a Grade 11 Student from Unida Christian College (UCC) studying in the SHS strand TVL-ICT-Programming, I have minor experience in programming but this field of education is the one I am most passionate about.</p>
-       </section>
-       <br>
-        <section>
-            <hr>
-            <h2>Summary</h2>
-            <br>
-            <table>
-                <tr>
-                    <td>
-                        <strong>Jan 2018-2022</strong>
-                    </td>
-                    <td>I've been exposed to technology such as cellular phones and have been fascinated by them since I was 9, ever since discovering programming, I have been inspired to take it on as my future education, as my mother was a former graduate of programming, I believe I can follow her footsteps.</td>
-                </tr>
-            </table>
-        </section>
-        <br>
+    <section class="education">
+        <h2>Education</h2>
+        <table>
+            <tr><td><strong>2013-2014</strong></td><td>Completed kindergarten with minor awards.</td></tr>
+            <tr><td><strong>2014-2019</strong></td><td>Graduated elementary as an average student.</td></tr>
+            <tr><td><strong>2020-2023</strong></td><td>Graduated high school.</td></tr>
+            <tr><td><strong>2024-2026</strong></td><td>Currently in Senior High School.</td></tr>
+        </table>
+    </section>
 
-         <section>
-            <h2>Education</h2>
-            <hr>
-            <table>
-                <tr>
-                    <td>
-                        <strong>2013-2014</strong>
-                    </td>
-                    <td>I had completed kindergarten normally with a few minor awards.</td>
-                </tr>
-                <tr>
-                    <td>
-                        <strong>2014-2019</strong>
-                    </td>
-                    <td>I had graduated elementary as an average student.</td>
-                </tr><tr>
-                    <td>
-                        <strong>2020-2023</strong>
-                    </td>
-                    <td>I graduated from High school as an average student.</td>
-                </tr>
-                <tr>
-                    <td>
-                        <strong>2024-2026</strong>
-                    </td>
-                    <td>Presently in Senior High School.</td>
-                </tr>
-            </table>
-         </section>
-         <br>
-          <section>
-            <h2>Skills</h2>
-            <hr>
-                    <h3>Hard Skill</h3>
-                    <ul>
-                        <li>(Currently) Learning Programming, Reading Comprehension</li>
-                    </ul>
-                    <h3>Soft Skill</h3>
-                    <ul>
-                        <li>Housekeeping, Pet Care, Attentive Student</li>
-                    </ul>
-          </section>
-          
+    <section class="skills">
+        <h2>Skills</h2>
+        <h3>Hard Skills</h3>
+        <ul>
+            <li>Learning Programming, Reading Comprehension</li>
+        </ul>
+        <h3>Soft Skills</h3>
+        <ul>
+            <li>Housekeeping, Pet Care, Attentive Student</li>
+        </ul>
+    </section>
 
-          <section>
-            <h2>Contact</h2>
-            <hr>
-            <p>Email: seancasas9@gmail.com</p>
-            <p>Phone: +639671543861</p>
-          </section>
+    <section class="contact">
+        <h2>Contact</h2>
+        <p>Email: seancasas9@gmail.com</p>
+        <p>Phone: +639671543861</p>
+    </section>
+
+    <footer>
+        <p>© 2025 CASAS SEAN CARLO</p>
+    </footer>
+
 </body>
 </html>
