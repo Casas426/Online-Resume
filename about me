@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>About Me</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="https://www.facebook.com/yourprofile" target="_blank">Facebook</a>
+        </nav>
+    </header>
+
+    <section class="about">
+        <p>
+            I am a Grade 11 Student from Unida Christian College (UCC), studying in the SHS strand TVL-ICT-Programming.
+            I have minor experience in programming, but this field is my passion.
+            Since childhood, technology has fascinated me, and I am eager to improve my skills in this field.
+        </p>
+    </section>
+
+    <footer>
+        <p>© 2025 CASAS SEAN CARLO</p>
+    </footer>
+
+</body>
+</html>
