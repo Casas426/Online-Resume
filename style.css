@@ -1,0 +1,86 @@
+/* General Styles */
+body {
+    font-family: Calibri, sans-serif;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Header Styles */
+header {
+    background-color: lightblue;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header nav {
+    margin-top: 10px;
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 15px;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+/* Sections */
+section {
+    margin: 20px auto;
+    width: 80%;
+    max-width: 800px;
+    text-align: left;
+}
+
+h2 {
+    border-bottom: 2px solid lightblue;
+    padding-bottom: 5px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: left;
+}
+
+/* Skills Section */
+ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+/* Footer */
+footer {
+    background-color: lightblue;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 600px) {
+    section {
+        width: 90%;
+    }
+
+    table {
+        font-size: 14px;
+    }
+
+    header nav a {
+        display: block;
+        margin: 5px 0;
+    }
+}
